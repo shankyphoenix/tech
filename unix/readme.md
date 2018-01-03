@@ -1,9 +1,9 @@
 
 
-[tensorflow - web version]
+### tensorflow - web version
   sudo docker run -it -p 9999:8888 tensorflow/tensorflow
 
-[files to upload on bildhive]
+### files to upload on bildhive
   /var/www/html/bildhive2017/application/views/siteadmin/content_edit.twig
   /var/www/html/bildhive2017/application/controllers/siteadmin/Manage_content.php
   /var/www/html/bildhive2017/application/models/siteadmin/Manage_content_model.php
@@ -12,11 +12,10 @@
   /var/www/html/bildhive2017/application/models/Site_common_model.phpn
 
 
-
-[MYSQL]
+### MYSQL
   SELECT * FROM `reso_content_data` WHERE DATE_FORMAT(`created_date`,'%m-%d') = DATE_FORMAT(NOW(),'%m-%d')
 
-[Creating puppet master on ubuntu 16]
+### Creating puppet master on ubuntu 16
   docker pull ubuntu
   sudo docker run --name mpuppet -it ubuntu
   sudo docker run --name agent1puppet -it ubuntu
@@ -27,13 +26,13 @@
   sudo docker exec -it agent1puppet /bin/bash
 
 
-[url]
+### url
   https://www.youtube.com/channel/UCJoFEAz6KNSyeoAUIjFzIwQ
   https://www.youtube.com/watch?v=n784Mi_86Kk
   https://cucumber.io/school
   http://editor.method.ac/
   
-[******]
+### ******
   https://design.tutsplus.com/tutorials/human-anatomy-fundamentals-mastering-facial-expressions--cms-21140
   docker-machine create --driver=virtualbox <container-name> #create a docker machine in virtual box
   docker-machine env <container-name> # set the docker machine to enu
@@ -49,7 +48,7 @@
   sudo docker run --name puppetagent -it devopsil/puppet bash
   docker images
 
-[docker puppet]
+### docker puppet
   docker-machine create --driver=virtualbox puppetmaster
   docker-machine create --driver=virtualbox puppetslave1
   
@@ -124,11 +123,11 @@
 
 
 
-[puppet]
+### puppet
   https://www.youtube.com/watch?v=n784Mi_86Kk
 
 
-[*********commands]
+### *********commands
   gksu nautilus #open explorere and when copy or paste files.
   dpkg -l | grep graphite
   sudo apt-get remove --purge <packagename>
@@ -149,7 +148,7 @@ Pnx@ryan18
 
 http://dusanlukic.com/orocrm-creating-a-simple-crud-part-1
 
-[phpfpm]
+### phpfpm
 https://serversforhackers.com/c/php-fpm-multiple-resource-pools
 
 shell_exec("nohup /usr/bin/htmldoc -t pdf --webpage test.html > test.pdf 2>&1 &");
@@ -259,7 +258,7 @@ sudo apt-get install samba
 sudo smbpasswd -a <user_name>
 Note: Samba uses a separate set of passwords than the standard Linux system accounts (stored in /etc/samba/smbpasswd), so you'll need to create a Samba password for yourself. This tutorial implies that you will use your own user and it does not cover situations involving other users passwords, groups, etc...
 sudo nano /etc/samba/smb.conf
-[vufind]
+### vufind
     comment = Ubuntu File Server Share
     path = /var/www/html/vufind
     browsable = yes
@@ -433,9 +432,9 @@ Theme
   - Override single page display layout.
   - 
 
-- Axis Long Term Equity Fund - Growth[AX012] 2k
-- Birla Sun Life Tax Relief 96 - Growth[BM382] 3k
-- DSP BlackRock Tax Saver Fund - Growth[DS081] 3k
+- Axis Long Term Equity Fund - Growth### AX012 2k
+- Birla Sun Life Tax Relief 96 - Growth### BM382 3k
+- DSP BlackRock Tax Saver Fund - Growth### DS081 3k
 
 
 (?:abc) non-capturing group
@@ -584,56 +583,56 @@ checkCaptcha()
 
 //$.map( defaultJson, function( val, i ) {});
 
-$Options['dependent'] = function(){ /*return html select*/ };
-$Options['category'] = function(){ /*return html category*/ };
-$Options['tags'] = function(){ /*return html tags*/ };
-$Options['country'] = function(){ /*return html*/ }
-$Options['ip'] = function(){ /*return html*/ }
-$Options['httprefer']= function(){ /*return html*/ }
-$Options['currentuserid']= function(){ /*return html*/ }
-$Options['uuid']= function(){ /*return html*/ }
-$Options['default']= function(){ /*return html*/ }
-$Options['post']= function(){ /*return html*/ }
+$Options### 'dependent' = function(){ /*return html select*/ };
+$Options### 'category' = function(){ /*return html category*/ };
+$Options### 'tags' = function(){ /*return html tags*/ };
+$Options### 'country' = function(){ /*return html*/ }
+$Options### 'ip' = function(){ /*return html*/ }
+$Options### 'httprefer'= function(){ /*return html*/ }
+$Options### 'currentuserid'= function(){ /*return html*/ }
+$Options### 'uuid'= function(){ /*return html*/ }
+$Options### 'default'= function(){ /*return html*/ }
+$Options### 'post'= function(){ /*return html*/ }
 
-$Options['required']= function(){ /*return html*/ }
-$Options['unique']= function(){ /*return html*/ }
-$Options['max']= function(){ /*return html*/ }
-$Options['min']= function(){ /*return html*/ }
-$Options['email']= function(){ /*return html*/ }
-$Options['regexp']= function(){ /*return html*/ }
-$Options['checkunique']= function(){ /*return html*/ }
-$Options['checkImagetypes']= function(){ /*return html*/ }
-$Options['checkCaptcha']= function(){ /*return html*/ }
+$Options### 'required'= function(){ /*return html*/ }
+$Options### 'unique'= function(){ /*return html*/ }
+$Options### 'max'= function(){ /*return html*/ }
+$Options### 'min'= function(){ /*return html*/ }
+$Options### 'email'= function(){ /*return html*/ }
+$Options### 'regexp'= function(){ /*return html*/ }
+$Options### 'checkunique'= function(){ /*return html*/ }
+$Options### 'checkImagetypes'= function(){ /*return html*/ }
+$Options### 'checkCaptcha'= function(){ /*return html*/ }
 
 
 
 $settings={};
 
-availableFieldType=[];
-availableFieldType['text'] ={"fname":"","flabel":"","fhelp":"","fdesc":"","behaviour":{"dynamic": ["dependent", "category", "tags"],"static": ["default", "country", "currentdate", " ip ", "httprefer ", "currentuserid ", "uuid ", "post"]},"validation":["required", "unique", "max", "min", "email", "regexp", "checkunique", "checkImagetypes", "checkCaptcha"]}
+availableFieldType=### ;
+availableFieldType### 'text' ={"fname":"","flabel":"","fhelp":"","fdesc":"","behaviour":{"dynamic": ### "dependent", "category", "tags","static": ### "default", "country", "currentdate", " ip ", "httprefer ", "currentuserid ", "uuid ", "post"},"validation":### "required", "unique", "max", "min", "email", "regexp", "checkunique", "checkImagetypes", "checkCaptcha"}
 
 
-$settings['text']['fname'] = "";
-$settings['text']['flable'] = "";
-$settings['text']['fhelp'] = "";
-$settings['text']['fdesc'] = "";
-$settings['text']['behaviour'] = {"dynamic": ["dependent", "category", "tags"],"static": "default", "country", "currentdate", " ip ", "httprefer ", "currentuserid ", "uuid ", "post"]}
-$settings['text']['validation'] = ['required','unique','max','min','email','regexp','checkunique','checkImagetypes','checkCaptcha']
+$settings### 'text'### 'fname' = "";
+$settings### 'text'### 'flable' = "";
+$settings### 'text'### 'fhelp' = "";
+$settings### 'text'### 'fdesc' = "";
+$settings### 'text'### 'behaviour' = {"dynamic": ### "dependent", "category", "tags","static": "default", "country", "currentdate", " ip ", "httprefer ", "currentuserid ", "uuid ", "post"]}
+$settings### 'text'### 'validation' = ### 'required','unique','max','min','email','regexp','checkunique','checkImagetypes','checkCaptcha'
 
-//$behavior['dynamic']['text'] = ['dependent','category','tags','']
-//$behavior['static']['text'] = ['default','country','currentdate',ip','httprefer','currentuserid','uuid','post']
+//$behavior### 'dynamic'### 'text' = ### 'dependent','category','tags',''
+//$behavior### 'static'### 'text' = ### 'default','country','currentdate',ip','httprefer','currentuserid','uuid','post'
 
-$behaviorOptions['depent']
-
-
+$behaviorOptions### 'depent'
 
 
-hidden - [static/dynamic(ip,httprefer)],defaultvalue,validation
-text - [static/dynamic],defaultvalue,validation
-textarea - [static/dynamic],defaultvalue,validation
-select - [static/dynamic],defaultvalue,validation
-checkbox- [static/dynamic],defaultvalue,validation
-radio -[static/dynamic],defaultvalue,validation
+
+
+hidden - ### static/dynamic(ip,httprefer),defaultvalue,validation
+text - ### static/dynamic,defaultvalue,validation
+textarea - ### static/dynamic,defaultvalue,validation
+select - ### static/dynamic,defaultvalue,validation
+checkbox- ### static/dynamic,defaultvalue,validation
+radio -### static/dynamic,defaultvalue,validation
 Image -validation
 Captcha - 
 
@@ -688,9 +687,9 @@ find . -type f -printf "%T@ %p\n" | sort -nr | cut -d\  -f2-
 
 
 
-data = [{"Date":"01/01/2011","Month":"Jan-11","Owner":"Aperture","Unit Sales":3},{"Date":"01/02/2011","Month":"Feb-11","Owner":"Aperture","Unit Sales":9},{"Date":"01/02/2011","Month":"Feb-11","Owner":"Black Mesa","Unit Sales":4}];
+data = ### {"Date":"01/01/2011","Month":"Jan-11","Owner":"Aperture","Unit Sales":3},{"Date":"01/02/2011","Month":"Feb-11","Owner":"Aperture","Unit Sales":9},{"Date":"01/02/2011","Month":"Feb-11","Owner":"Black Mesa","Unit Sales":4};
 
-      data = dimple.filterData(data, "Owner", ["Aperture", "Black Mesa"])
+      data = dimple.filterData(data, "Owner", ### "Aperture", "Black Mesa")
       var myChart = new dimple.chart(svg,data);
       
       myChart.setBounds(620, 120, 150, 150)
@@ -764,7 +763,7 @@ sudo docker start Jenkin_Buildhive
 sudo docker stop Jenkin_Buildhive
 
 
-[Create a docker machine and then create containers inside docker machine]
+### Create a docker machine and then create containers inside docker machine
   docker-machine create --driver=virtualbox <container-name> #create a docker machine in virtual box
   docker-machine env <container-name> # set the docker machine to enu
   eval "$(docker-machine env <container-name>)"
@@ -799,7 +798,7 @@ sudo docker stop web_bildhive
 Create a floder <bildhive> and got to <bildhive>
 Create a `docterfile`
 Put dockerfile commands
-sudo docker build -t bildhive . [dot is important]
+sudo docker build -t bildhive . ### dot is important
 sudo docker run -td -p 8802:80 -v /var/www/html:/var/www/docker/bildhive/app bildhive
 or
 sudo docker run -d -p 880:80 -p 222:22 -p 33306:3306 -v $(pwd)/www:/var/www/html:rw -v ${PWD}/mysql:/var/lib/mysql bildhive
