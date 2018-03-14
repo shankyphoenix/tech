@@ -1,3 +1,6 @@
+
+
+
 # technology to cover
 
 ## Graphite
@@ -6,10 +9,10 @@
 ## Seyren(alert or notify ) - with graphite
 ## Collectd, Diamond, statd
 
-
+## Angular JS 4
 ## MongoDB
 ## Monolog
-## Puppet
+## Puppetn
 ## Git
 ## Docker
 ## AMPQ- Rabbit ampq
@@ -24,3 +27,17 @@
 ### Memcached
 ### Varnish
 ### redis cache server
+
+
+### slack
+
+https://www.youtube.com/watch?v=Ivn5jfKE_5M
+
+
+### bot.ai
+https://dialogflow.com/docs/getting-started/basics
+
+
+
+
+
